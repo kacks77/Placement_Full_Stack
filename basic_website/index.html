@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lynx Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow">
+      <div
+        class="container mx-auto flex justify-between items-center py-4 px-6"
+      >
+        <h1 class="text-xl font-bold">Lynx</h1>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="text-gray-700">Home</a></li>
+          <li><a href="#" class="text-gray-700">Services</a></li>
+          <li><a href="#" class="text-gray-700">Team</a></li>
+          <li><a href="#" class="text-gray-700">Contact</a></li>
+        </ul>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-700">F</a>
+          <a href="#" class="text-gray-700">T</a>
+          <a href="#" class="text-gray-700">I</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Image Container -->
+    <section
+      class="relative h-screen bg-cover bg-center"
+      style="
+        background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg');
+      "
+    >
+      <div
+        class="flex items-center justify-center h-full bg-black bg-opacity-50"
+      >
+        <div class="text-center text-white">
+          <h2 class="text-4xl font-bold mb-4">
+            Finding <span class="text-orange-500">creative</span> approaches
+          </h2>
+          <p class="mb-6">to help your business grow</p>
+          <button
+            class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600"
+          >
+            Get in touch
+          </button>
+          <button
+            class="bg-white text-black px-6 py-2 rounded hover:bg-gray-200 ml-4"
+          >
+            Meet the team
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section with text and image -->
+    <section class="flex items-center p-10">
+      <div class="flex-1 pr-4">
+        <h3 class="text-3xl font-semibold mb-2">
+          Set the bar in your industry
+        </h3>
+        <p class="mb-4">
+          Click once to style, move and resize. Click twice to edit text. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <button
+          class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
+        >
+          See our services
+        </button>
+      </div>
+      <div class="flex-1">
+        <img
+          src="https://img.freepik.com/premium-photo/grainy-gradient-background-red-white-blue-colors-with-soft-faded-watercolor-border-texture_927344-24167.jpg"
+          alt="Office"
+          class="rounded-lg"
+        />
+      </div>
+    </section>
+
+    <!-- Background image section -->
+    <section
+      class="relative h-96 bg-cover bg-center"
+      style="
+        background-image: url('https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+      "
+    >
+      <div
+        class="flex items-center justify-center h-full bg-black bg-opacity-50"
+      >
+        <p class="text-white text-2xl font-semibold">
+          We make great things happen.
+        </p>
+      </div>
+    </section>
+
+    <!-- Container with three images and a button -->
+    <section class="text-center p-10">
+      <div class="flex justify-center space-x-4 mb-6">
+        <img
+          src="https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg"
+          alt="Gallery Image 1"
+          class="rounded-lg"
+        />
+        <img
+          src="https://source.unsplash.com/random/300x200"
+          alt="Gallery Image 2"
+          class="rounded-lg"
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_640.png"
+          alt="Gallery Image 3"
+          class="rounded-lg"
+        />
+      </div>
+      <button
+        class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
+      >
+        View More
+      </button>
+    </section>
+
+    <!-- Form and map section -->
+    <section class="flex p-10">
+      <div class="flex-1 pr-4">
+        <h3 class="text-3xl font-semibold mb-4">Contact Us</h3>
+        <form>
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="border p-2 mb-4 w-full"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="border p-2 mb-4 w-full"
+            required
+          />
+          <textarea
+            placeholder="Your Message"
+            class="border p-2 mb-4 w-full"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+      <div class="flex-1">
+        <img
+          src="https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg"
+          alt="Map"
+          class="rounded-lg"
+        />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4">
+      <p>&copy; 2024 Lynx. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
